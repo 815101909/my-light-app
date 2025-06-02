@@ -90,6 +90,12 @@ export default function BeautyLight() {
             </div>
           )}
         </div>
+        {/* 拍摄装饰按钮 */}
+        <div className="girl-capture-btn-wrap">
+          <button className="girl-capture-btn">
+            <span className="girl-cam-icon">📸</span> 拍一张
+          </button>
+        </div>
         {/* 预设色彩+调节区合并为一个panel */}
         <div className="panel w-full max-w-md girl-panel">
           <div className="girl-section-title">💖 预设少女色彩</div>

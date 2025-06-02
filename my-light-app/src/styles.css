@@ -199,4 +199,42 @@ footer {
   margin-bottom: 1.5rem;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
+}
+
+.girl-capture-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+.girl-capture-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background: linear-gradient(90deg, #f7e6fa 0%, #e6f0ff 100%);
+  color: #a16ae8;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.15em;
+  font-weight: bold;
+  padding: 0.7em 2.2em;
+  box-shadow: 0 2px 12px #e6d6fa;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  outline: none;
+  position: relative;
+}
+.girl-capture-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 24px #e6d6fa;
+  color: #fff;
+  background: linear-gradient(90deg, #e48ecf 0%, #a16ae8 100%);
+}
+.girl-cam-icon {
+  font-size: 1.3em;
+  animation: girl-cam-bounce 1.6s infinite;
+}
+@keyframes girl-cam-bounce {
+  0%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-6px); }
+  60% { transform: translateY(2px); }
 } 
